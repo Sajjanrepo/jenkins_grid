@@ -34,12 +34,10 @@ class TestSaucelab:
         result= self.saucedemo.verify()
         if result:
             self.logger.info("Login is succesfull")
-            self.driver.close()
             assert True
 
         else:
             self.logger.error("Login is Unsuccessfull")
-            self.driver.close()
             assert False
 
 

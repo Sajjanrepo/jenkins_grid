@@ -38,12 +38,10 @@ class TestDemostore:
         result = self.demostore.verify()
         if result:
             self.logger.info("Login is succesfull")
-            self.driver.close()
             assert True
 
         else:
             self.logger.error("Login is Unsuccessfull")
-            self.driver.close()
             assert False
 
 
