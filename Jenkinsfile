@@ -22,7 +22,7 @@ pipeline {
             steps {
                 // Run Python scripts or tests
                 sh '''
-                    pytest -s -v -n 2 --html=report.html --self-contained-html
+                    pytest -s -v -n 4 --html=report.html --self-contained-html
                 '''
             }
         }
