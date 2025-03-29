@@ -7,7 +7,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.firefox import GeckoDriverManager
 
 
-@pytest.fixture(params=["chrome", "firefox"], scope="function")
+@pytest.fixture(params=["chrome", "firefox"], scope="session")
 def driver(request):
     binary_path = ReadConfig.getFirefoxPath()
     browser = request.param
