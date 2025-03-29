@@ -36,11 +36,5 @@ pipeline {
         }
 
     }
-    post {
-        always {
-            archiveArtifacts artifacts: 'reports/*.html', fingerprint: true
-            junit 'reports/*.xml'
-        }
-    }
 
 }
