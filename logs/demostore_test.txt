@@ -1,0 +1,24 @@
+2025-03-29 14:29:46,197: INFO: Enter the base url of Demostore
+2025-03-29 14:29:51,383: DEBUG: Entered the base url: http://demostore.supersqa.com/
+2025-03-29 14:29:51,384: INFO: Click Myaccount in homepage
+2025-03-29 14:29:52,645: DEBUG: Clicked the My Account link on homepage
+2025-03-29 14:29:52,645: INFO: Enter the username of Demostore
+2025-03-29 14:29:52,797: DEBUG: Entered the username: sajjan.maverick@gmail.com
+2025-03-29 14:29:52,797: INFO: Enter the password of Demostore
+2025-03-29 14:29:52,894: DEBUG: Entered the password: optimusprimesajjan
+2025-03-29 14:29:52,895: INFO: Click the login button
+2025-03-29 14:29:53,708: INFO: Clicked the login button
+2025-03-29 14:29:53,709: INFO: Verify the login
+2025-03-29 14:29:53,738: INFO: Login is succesfull
+2025-03-29 14:30:06,291: INFO: Enter the base url of Demostore
+2025-03-29 14:30:08,678: DEBUG: Entered the base url: http://demostore.supersqa.com/
+2025-03-29 14:30:08,678: INFO: Click Myaccount in homepage
+2025-03-29 14:30:10,123: DEBUG: Clicked the My Account link on homepage
+2025-03-29 14:30:10,123: INFO: Enter the username of Demostore
+2025-03-29 14:30:10,197: DEBUG: Entered the username: sajjan.maverick@gmail.com
+2025-03-29 14:30:10,197: INFO: Enter the password of Demostore
+2025-03-29 14:30:10,232: DEBUG: Entered the password: optimusprimesajjan
+2025-03-29 14:30:10,232: INFO: Click the login button
+2025-03-29 14:30:10,979: INFO: Clicked the login button
+2025-03-29 14:30:10,980: INFO: Verify the login
+2025-03-29 14:30:11,013: INFO: Login is succesfull
