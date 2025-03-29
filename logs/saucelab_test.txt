@@ -1,20 +1,10 @@
-2025-03-29 14:29:46,137: INFO: Enter the base url of Sauce Labs
-2025-03-29 14:29:46,301: DEBUG: Entered the base url: https://www.saucedemo.com/
-2025-03-29 14:29:46,302: INFO: Enter the username of Sauce Labs
-2025-03-29 14:29:46,816: DEBUG: Entered the username: standard_user
-2025-03-29 14:29:46,816: INFO: Enter the password of Sauce Labs
-2025-03-29 14:29:46,922: DEBUG: Entered the password: secret_sauce
-2025-03-29 14:29:46,923: INFO: Click the login button
-2025-03-29 14:29:47,017: INFO: Clicked the login button
-2025-03-29 14:29:47,017: INFO: Verify the login
-2025-03-29 14:29:47,056: INFO: Login is succesfull
-2025-03-29 14:29:59,856: INFO: Enter the base url of Sauce Labs
-2025-03-29 14:30:00,505: DEBUG: Entered the base url: https://www.saucedemo.com/
-2025-03-29 14:30:00,505: INFO: Enter the username of Sauce Labs
-2025-03-29 14:30:00,650: DEBUG: Entered the username: standard_user
-2025-03-29 14:30:00,650: INFO: Enter the password of Sauce Labs
-2025-03-29 14:30:00,691: DEBUG: Entered the password: secret_sauce
-2025-03-29 14:30:00,691: INFO: Click the login button
-2025-03-29 14:30:00,955: INFO: Clicked the login button
-2025-03-29 14:30:00,955: INFO: Verify the login
-2025-03-29 14:30:00,968: INFO: Login is succesfull
+2025-03-29 23:59:04,992: INFO: Enter the base url of Sauce Labs
+2025-03-29 23:59:05,899: DEBUG: Entered the base url: https://www.saucedemo.com/
+2025-03-29 23:59:05,900: INFO: Enter the username of Sauce Labs
+2025-03-29 23:59:06,345: DEBUG: Entered the username: standard_user
+2025-03-29 23:59:06,345: INFO: Enter the password of Sauce Labs
+2025-03-29 23:59:06,605: DEBUG: Entered the password: secret_sauce
+2025-03-29 23:59:06,606: INFO: Click the login button
+2025-03-29 23:59:06,892: INFO: Clicked the login button
+2025-03-29 23:59:06,892: INFO: Verify the login
+2025-03-29 23:59:06,959: INFO: Login is succesfull

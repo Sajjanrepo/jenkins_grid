@@ -1,0 +1,45 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout Code') {
+            steps {
+                git url: 'https://github.com/Sajjanrepo/jenkins_grid.git', branch: 'master'
+            }
+        }
+
+        stage('Start Selenium Grid') {
+            steps {
+                sh 'docker-compose up -d'
+            }
+        }
+
+        stage('Run Parallel Tests') {
+            parallel {
+                stage('Chrome Tests') {
+                    steps {
+                        sh 'pytest -n 2 --browser chrome --html=reports/chrome_report.html'
+                    }
+                }
+                stage('Firefox Tests') {
+                    steps {
+                        sh 'pytest -n 2 --browser firefox --html=reports/firefox_report.html'
+                    }
+                }
+            }
+        }
+
+        stage('Stop Selenium Grid') {
+            steps {
+                sh 'docker-compose down'
+            }
+        }
+    }
+
+    post {
+        always {
+            archiveArtifacts artifacts: 'reports/*.html', fingerprint: true
+            junit 'reports/*.xml'
+        }
+    }
+}

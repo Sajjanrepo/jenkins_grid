@@ -6,7 +6,7 @@ config.read(os.path.abspath(os.curdir) + '\\configurations\\config.ini')
 
 
 class ReadConfig:
-    
+
     @staticmethod
     def getsaucedemoURL():
         saudemourl = config.get('url', 'saucedemo_baseURL')
@@ -16,7 +16,7 @@ class ReadConfig:
     def getdemostoreURL():
         demostoreurl = config.get('url', 'demostorebaseURL')
         return demostoreurl
-    
+
     @staticmethod
     def getdemostoreUseremail():
         demousername = config.get('credentials', 'demostore_email')
@@ -36,8 +36,13 @@ class ReadConfig:
     def getsaucePassword():
         saucepassword = config.get('credentials', 'saucedemo_password')
         return saucepassword
-    
+
     @staticmethod
     def getFirefoxPath():
         firefox_path = config.get('drivers', 'firefox_path')
         return firefox_path
+
+    @staticmethod
+    def getchromePath():
+        chrome_path = config.get('drivers', 'chrome_path')
+        return chrome_path
